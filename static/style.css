@@ -1,0 +1,181 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #FFF9F2;
+    color: #5C4A3A;
+}
+
+/* Navbar */
+.navbar {
+    background-color: #FFFFFF;
+    padding: 1.2rem 0;
+    box-shadow: 0 2px 10px rgba(92, 74, 58, 0.06);
+}
+
+.navbar-brand {
+    color: #5C4A3A !important;
+    font-family: 'Playfair Display', serif;
+    font-weight: 600;
+    font-size: 1.5rem;
+    letter-spacing: 1px;
+}
+
+.btn-nav {
+    background-color: transparent;
+    border: 1.5px solid #E8A0A0;
+    color: #D97A8C;
+    border-radius: 20px;
+    padding: 0.4rem 1.1rem;
+    font-weight: 500;
+    font-size: 0.9rem;
+    transition: all 0.2s ease;
+}
+
+.btn-nav:hover, .btn-nav.active {
+    background-color: #E8A0A0;
+    color: #FFFFFF;
+    border-color: #E8A0A0;
+}
+
+/* Hero Section */
+.hero-wrapper {
+    padding: 3rem 1.5rem;
+    display: flex;
+    justify-content: center;
+}
+
+.hero-card {
+    background-color: #FFFFFF;
+    border-radius: 24px;
+    padding: 2.5rem 3rem 3.5rem;
+    text-align: center;
+    max-width: 700px;
+    width: 100%;
+    box-shadow: 0 10px 30px rgba(92, 74, 58, 0.08);
+}
+
+.hero-banner {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    display: block;
+}
+
+.hero-kicker {
+    color: #E8829A;
+    font-weight: 600;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-size: 0.85rem;
+    margin-bottom: 0.5rem;
+}
+
+.hero-title {
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    font-size: 3.2rem;
+    color: #5C4A3A;
+    margin-bottom: 0.8rem;
+}
+
+.hero-tagline {
+    font-size: 1.15rem;
+    color: #B08C72;
+    font-style: italic;
+    margin-bottom: 1rem;
+}
+
+.btn-hero {
+    background-color: #E8829A;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 25px;
+    padding: 0.75rem 2.3rem;
+    font-weight: 600;
+    transition: background-color 0.2s ease;
+}
+
+.btn-hero:hover {
+    background-color: #D9657F;
+    color: #FFFFFF;
+}
+
+/* About strip */
+.about-section {
+    padding: 2.5rem 0 4rem;
+    max-width: 650px;
+}
+
+.about-kicker {
+    color: #E8829A;
+    font-weight: 600;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-size: 0.85rem;
+    margin-bottom: 0.5rem;
+}
+
+.about-text {
+    color: #8A6F5C;
+    font-size: 1.05rem;
+    line-height: 1.8;
+}
+
+/* Menu Page */
+.page-kicker {
+    color: #E8829A;
+    font-weight: 600;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-size: 0.85rem;
+    margin-top: 2.5rem;
+    margin-bottom: 0.3rem;
+    text-align: center;
+}
+
+.page-heading {
+    font-family: 'Playfair Display', serif;
+    color: #5C4A3A;
+    font-weight: 700;
+}
+
+.cocktail-card {
+    background-color: #FFFFFF;
+    border-radius: 18px;
+    padding: 1.2rem 1.2rem 1.8rem;
+    height: 100%;
+    text-align: center;
+    box-shadow: 0 8px 20px rgba(92, 74, 58, 0.08);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.cocktail-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 12px 26px rgba(92, 74, 58, 0.12);
+}
+
+.cocktail-img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 14px;
+    margin-bottom: 1.2rem;
+}
+
+.cocktail-name {
+    font-family: 'Playfair Display', serif;
+    color: #5C4A3A;
+    font-weight: 600;
+    margin-bottom: 0.6rem;
+}
+
+.cocktail-desc {
+    color: #B08C72;
+    font-size: 0.9rem;
+    margin-bottom: 0.8rem;
+}
+
+.cocktail-price {
+    color: #E8829A;
+    font-weight: 700;
+    margin-bottom: 0;
+}
